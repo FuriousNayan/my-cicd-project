@@ -11,5 +11,3 @@ def db_connection():
     conn = create_test_db()
     yield conn      # test runs here
     conn.close()    # teardown
-
-

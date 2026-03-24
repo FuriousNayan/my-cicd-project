@@ -10,4 +10,3 @@ def test_weather_api():
     WEATHER_URL = "https://api.weather.gov"
     resp = requests.get(WEATHER_URL)
     assert resp.status_code == 200
-

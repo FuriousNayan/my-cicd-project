@@ -2,6 +2,7 @@ import pytest
 from src.calculator import add, divide, multiply, subtract
 
 # Replaces writing 4 identical test functions
+
 @pytest.mark.parametrize("a, b, expected", [
 
     (2,   3,   5),    # positive
